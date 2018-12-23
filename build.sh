@@ -1,7 +1,7 @@
 rm -rdf tar-files/*
 for X in `cd src;find . -mindepth 1 -maxdepth 1 -type d;cd ..`;do
 	cd src/$X
-	tar Jcf ../../tar-files/${X}.txz *
+	tar Jcf ../../tar-files/${X}.tar *
 	cd ../..
 done
 git add .
