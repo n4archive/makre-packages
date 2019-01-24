@@ -4,7 +4,8 @@ MD="# Packages"
 for X in `cd src;find . -mindepth 1 -maxdepth 1 -type d;cd ..`;do
 	cd src/$X
 	tar Jcf ../../tar-files/${X}.tar *
-	MD="${MD}\n## ${X:2}\n### Description\nDESC\n### Website\n[Click](${REPO}/src/${X:2}/index.html)"
+	DESC=`cat DESC`
+	MD="${MD}\n## ${X:2}\n### Description\n${DESC}\n### Website\n[Click](${REPO}/src/${X:2}/index.html)"
 	cd ../..
 done
 echo -e $MD > packages.md
