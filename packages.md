@@ -1,11 +1,11 @@
 # Packages
-## ./makefile
+## makefile
 ### Description
 DESC
 ### Website
-[Click](https://nift4.github.io/makre-packages//src/./makefile/index.html)
-## ./sh
+[Click](https://nift4.github.io/makre-packages//src/makefile/index.html)
+## sh
 ### Description
 DESC
 ### Website
-[Click](https://nift4.github.io/makre-packages//src/./sh/index.html)
+[Click](https://nift4.github.io/makre-packages//src/sh/index.html)
