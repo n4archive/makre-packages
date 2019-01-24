@@ -1,4 +1,4 @@
-REPO="https://nift4.github.io/makre-packages/"
+REPO="https://nift4.github.io/makre-packages"
 rm -rdf tar-files/*
 MD="# Packages"
 for X in `cd src;find . -mindepth 1 -maxdepth 1 -type d;cd ..`;do
